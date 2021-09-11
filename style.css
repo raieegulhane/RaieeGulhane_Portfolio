@@ -1,0 +1,25 @@
+/* Heder font */
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&display=swap');
+
+/* Body font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/** Creating variable **/
+:root {
+    /* colors */
+    --primary-color: #FFC4FF;
+    --yellow: #edca85;
+    --blue: #a0e9ff;
+    --purple: #a162e8;
+    --pink: #f093b0;
+    --back-color: #111;
+    --gray-one: #222;
+    --gray-two: #333;
+    --gray-three: #444;
+    --gradient: linear-gradient(271deg, #a0e9ff 10%,
+    #a162e8 50%, #f093b0 70%, #edca85 94%);
+
+    /* fonts */
+    --head-font: 'Shippori Mincho', serif;
+    --body-font: 'Montserrat', sans-serif;
+}
