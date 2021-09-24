@@ -1,0 +1,79 @@
+@import url('/css/style.css');
+
+/*************** HEADER ***************/
+.header {
+    position: relative;
+    text-align: center;
+    padding: 3rem;
+}
+
+.header-title {
+    max-width: 500px;
+    font-size: 4.5rem;
+    font-family: var(--head-font);
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: auto;
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: var(--gray-three);
+    /* background-image: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    width: 54ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: var(--body-font2);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+/*************** CONTENT ***************/
+.contents {
+    position: relative;
+    display: block;
+    background-color: #141414;
+    color: var(--primary-font);
+    max-width: 850px;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 2rem auto;
+}
+
+.content-text {
+    max-width: 500px;
+    font-family: var(--body-font2);
+    font-size: 16px;
+    text-align: justify;
+    display: block;
+    margin: auto;
+}
+
+.content-text span {
+    color: var(--primary-color);
+    font-weight: bold;
+}

@@ -1,0 +1,44 @@
+@import url('/css/style.css');
+
+/*************** FOOTER ***************/
+.footer {
+    position: relative;
+    background-color: var(--back-color);
+    border-top: 3px solid black;
+    border-top-right-radius: 6rem;
+    border-top-left-radius: 6rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    box-shadow: -7px -3px 20px rgb(200 200 200 / 7%), 
+        inset -7px -7px 15px rgb(200 200 200 / 7%), 
+        15px 12px 12px rgb(0 0 0 / 90%), 
+        inset 17px 17px 17px rgb(0 0 0 / 70%);
+}
+
+.footer-head {
+    max-width: 250px;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-links {
+    display: flex;
+    max-width: 270px;
+    justify-content: space-between;
+    padding-top: 1rem;
+    margin: auto;
+
+}
+
+.footer .link:hover {
+    font-weight: bold;
+    color: var(--purple);
+    /* color: white;
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+} 
