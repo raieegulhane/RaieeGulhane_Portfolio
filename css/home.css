@@ -77,3 +77,23 @@
     color: var(--primary-color);
     font-weight: bold;
 }
+
+
+/*************** DIVIDER ***************/
+.divider-home {
+    max-width: 10%;
+}
+
+
+/*************** WORK DISPLAY ***************/
+.display-head {
+    font-family: var(--head-font);
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 25%;
+    margin: 1rem auto;
+}
+
+
+
