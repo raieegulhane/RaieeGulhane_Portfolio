@@ -2,7 +2,6 @@
 
 /*************** HEADER ***************/
 .header {
-    position: relative;
     text-align: center;
     padding: 3rem;
 }
@@ -63,7 +62,6 @@
 
 /*************** CONTENT ***************/
 .contents {
-    position: relative;
     display: block;
     background-color: var(--gray-one);
     color: var(--primary-font);
@@ -110,7 +108,6 @@
 }
 
 .home-cards {
-    position: relative;
     display: flex;
     flex-direction: column;
     background-color: var(--gray-one);
@@ -120,7 +117,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    border-radius: 1.5rem;
+    border-radius: 1.3rem;
     margin: 1rem 1rem 2rem 1rem;
 }
 
@@ -151,7 +148,6 @@
 }
 
 .link-view-all {
-    position: relative;
     background-color: var(--primary-color);
     color: var(--back-color);
     font-family: var(--body-font);
@@ -176,7 +172,4 @@
     margin: 3rem auto 4rem;
 }
 
-.divider-footer {
-    max-width: 17%;
-    margin: 7rem auto 3rem;
-}
+
