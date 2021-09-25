@@ -1,46 +1,55 @@
 @import url('/css/style.css');
 
 /*************** FOOTER ***************/
-.footer {
+footer {
     position: relative;
     background-color: var(--back-color);
     border-top: 3px solid black;
     border-top-right-radius: 6rem;
     border-top-left-radius: 6rem;
-    padding: 2rem 2rem;
+    padding: 1.5rem 2rem 0.3rem;
     text-align: center;
     box-shadow: -7px -3px 20px rgb(200 200 200 / 7%), 
         inset -7px -7px 15px rgb(200 200 200 / 7%), 
         15px 12px 12px rgb(0 0 0 / 90%), 
         inset 17px 17px 17px rgb(0 0 0 / 70%);
-    bottom: 0;
-    margin: 0;
 }
 
 .footer-head {
-    max-width: 250px;
-    margin: auto;
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--body-font);
+    font-size: 19px;
     font-weight: bold;
-    color: white;
+    max-width: fit-content;
+    margin: 0 auto 0.5rem;
+}
+
+.social-media a{
+    cursor: pointer;
+    margin: 0.7rem;
+}
+
+svg {
+    fill: var(--gray-four);
+    max-height: 30px;
+    max-height: 30px;
+    padding: 0.3rem;
+}
+
+svg:hover {
+    fill: var(--purple);
+}
+
+.footer-text {
+    color: var(--gray-three);
+    font-size: 14px;
+    padding: 0.5rem;
+}
+
+.heart {
     background-image: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-.footer-links {
-    display: flex;
-    max-width: 270px;
-    justify-content: space-between;
-    padding-top: 1rem;
-    margin: auto;
-
-}
-
-.footer .link:hover {
-    font-weight: bold;
-    color: var(--purple);
-    /* color: white;
-    background-image: var(--gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
-} 
