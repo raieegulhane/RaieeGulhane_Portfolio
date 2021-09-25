@@ -118,12 +118,14 @@
     color: var(--primary-color2);
     font-family: var(--body-font);
     font-size: 22px;
+    /* font-weight: 400; */
+    letter-spacing: 0.7px;
     padding-bottom: 1rem;
 }
 
 .home-cards p {
     font-family: var(--body-font2);
-    font-size: 16px;
+    font-size: 16.5px;
     text-align: justify;
 }
 
@@ -131,8 +133,8 @@
     font-family: var(--body-font);
     font-weight: bold;
     font-size: 13px;
-    padding: 0.2rem 1.1rem;
-    max-width: 80px;
+    padding: 0.2rem 0.7rem;
+    min-width: 80px;
     border: 1.5px solid var(--primary-color);
     border-radius: 3rem;
     margin-left: 0.5rem;
