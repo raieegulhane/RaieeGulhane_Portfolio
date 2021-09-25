@@ -12,8 +12,7 @@
 :root {
     /* colors */
     --primary-color: #FFC4FF;
-    --primary-color2: #FFC4FF;
-    --primary-font: rgb(205, 205, 205);
+    --primary-font: rgb(200, 200, 200);
     --yellow: #edca85;
     --blue: #a0e9ff;
     --purple: #a162e8;
@@ -42,7 +41,9 @@ body {
     color: white;
     font-family: var(--body-font);
     text-align: center;
-    overflow-x: hidden;
+    padding-top: 2rem;
+    border-right: 3px solid var(--yellow);
+    border-left: 3px solid var(--yellow);
 }
 
 

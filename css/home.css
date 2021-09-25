@@ -14,7 +14,7 @@
     background-image: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: auto;
+    margin: 2rem auto 0;
 }
 
 .header-text {
@@ -24,10 +24,7 @@
 }
 
 .text {
-    color: var(--gray-three);
-    /* background-image: var(--gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    color: var(--primary-font);
     width: 54ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
@@ -42,14 +39,27 @@
     from {
       width: 0
     }
-  }
+}
       
-  @keyframes blink {
+@keyframes blink {
     50% {
       border-color: transparent
     }
-  }
+}
 
+
+
+/*************** IMAGE ***************/
+.home-image {
+    padding: 2rem;
+    margin: 1rem;
+
+}
+
+.home-image img {
+    max-width: 500px;
+    max-height: 500px;
+}
 
 /*************** CONTENT ***************/
 .contents {
@@ -61,13 +71,13 @@
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;
-    margin: 2rem auto 12rem auto;
+    margin: 2rem auto 9rem auto;
 }
 
 .content-text {
-    max-width: 500px;
+    max-width: 550px;
     font-family: var(--body-font2);
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
     display: block;
     margin: auto;
@@ -90,7 +100,7 @@
     -webkit-text-fill-color: transparent;
     font-family: var(--head-font);
     font-size: 33px;
-    max-width: 17%;
+    max-width: 16%;
     margin: 2rem auto 0.5rem auto;
 }
 
@@ -104,7 +114,7 @@
     display: flex;
     flex-direction: column;
     background-color: var(--gray-one);
-    color: var(--gray-three);
+    color: var(--primary-font);
     width: 270px;
     height: 160px;
     justify-content: space-between;
@@ -115,17 +125,16 @@
 }
 
 .home-cards h2 {
-    color: var(--primary-color2);
+    color: var(--primary-color);
     font-family: var(--body-font);
     font-size: 22px;
-    /* font-weight: 400; */
     letter-spacing: 0.7px;
     padding-bottom: 1rem;
 }
 
 .home-cards p {
     font-family: var(--body-font2);
-    font-size: 16.5px;
+    font-size: 16px;
     text-align: justify;
 }
 
@@ -164,10 +173,10 @@
 /*************** DIVIDER ***************/
 .divider-home {
     max-width: 15%;
-    margin: 5rem auto 5rem;
+    margin: 3rem auto 4rem;
 }
 
 .divider-footer {
-    max-width: 20%;
-    margin: 10rem auto 5rem;
+    max-width: 17%;
+    margin: 7rem auto 3rem;
 }
