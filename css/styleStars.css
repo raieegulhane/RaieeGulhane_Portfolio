@@ -6,7 +6,6 @@
 
 
 #stars1 {
-        position: absolute;
         width: 1px;
         height: 1px;
         background: transparent;
@@ -191,7 +190,6 @@
         animation: animStar 300s linear infinite;
   }
   #stars1:after {
-        position: absolute;
         content: " ";
         top: 2000px;
         width: 1px;
@@ -377,7 +375,6 @@
   }
   
   #stars2 {
-        position: absolute;
         width: 3px;
         height: 3px;
         border-radius: 100px;
@@ -436,7 +433,6 @@
         animation: animStar 400s linear infinite;
   }
   #stars2:after {
-        position: absolute;
         content: " ";
         top: 2000px;
         width: 2px;
@@ -495,7 +491,6 @@
   }
   
   #stars3 {
-        position: absolute;
         width: 5px;
         height: 5px;
         background: transparent;
@@ -529,7 +524,6 @@
         animation: animStar 500s linear infinite;
   }
   #stars3:after {
-        position: absolute;
         content: " ";
         top: 2000px;
         width: 3px;

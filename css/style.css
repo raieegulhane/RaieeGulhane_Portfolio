@@ -12,15 +12,16 @@
 :root {
     /* colors */
     --primary-color: #FFC4FF;
-    --primary-font: #aaa;
+    --primary-color2: #FFC4FF;
+    --primary-font: rgb(205, 205, 205);
     --yellow: #edca85;
     --blue: #a0e9ff;
     --purple: #a162e8;
     --pink: #f093b0;
     --back-color: #111;
-    --gray-one: #222;
+    --gray-one: #141414;
     --gray-two: #333;
-    --gray-three: #444;
+    --gray-three: #555;
     --gradient: linear-gradient(271deg, #a0e9ff 10%,
     #a162e8 50%, #f093b0 70%, #edca85 94%);
 
@@ -57,9 +58,32 @@ body {
     cursor: pointer;
 }
 
+.primary-link {
+    color: var(--gray-one);
+    background-color: var(--primary-color);
+    transition: 0.7s ease;
+}
+
+.primary-link:hover {
+    background-color: var(--gray-one);
+    color: var(--primary-color);
+}
+
+.secondary-link {
+    background-color: var(--gray-one);
+    color: var(--primary-color);
+    transition: 0.7s ease;
+}
+
+.secondary-link:hover {
+    color: var(--gray-one);
+    background-color: var(--primary-color);
+}
+
+
 /*************** DIVIDER ***************/
 .divider {
-    margin: 5rem auto 3rem;
+    position: relative;
     border: 0;
     border-radius: 3px;
     height: 1px;

@@ -55,13 +55,13 @@
 .contents {
     position: relative;
     display: block;
-    background-color: #141414;
+    background-color: var(--gray-one);
     color: var(--primary-font);
     max-width: 850px;
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;
-    margin: 2rem auto;
+    margin: 2rem auto 12rem auto;
 }
 
 .content-text {
@@ -79,21 +79,93 @@
 }
 
 
-/*************** DIVIDER ***************/
-.divider-home {
-    max-width: 10%;
+/*************** WORK DISPLAY ***************/
+.my-work {
+    margin-bottom: 7rem;
 }
 
-
-/*************** WORK DISPLAY ***************/
 .display-head {
-    font-family: var(--head-font);
     background-image: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    max-width: 25%;
-    margin: 1rem auto;
+    font-family: var(--head-font);
+    font-size: 33px;
+    max-width: 17%;
+    margin: 2rem auto 0.5rem auto;
+}
+
+.div-home-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.home-cards {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray-one);
+    color: var(--gray-three);
+    width: 280px;
+    height: 160px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    margin: 1rem 1rem 2rem 1rem;
+}
+
+.home-cards h2 {
+    color: var(--primary-color2);
+    font-family: var(--body-font);
+    font-size: 22px;
+    padding-bottom: 1rem;
+}
+
+.home-cards p {
+    font-family: var(--body-font2);
+    font-size: 16px;
+    text-align: justify;
+}
+
+.home-cards .link {
+    font-family: var(--body-font);
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0.2rem 1.1rem;
+    max-width: 80px;
+    border: 1.5px solid var(--primary-color);
+    border-radius: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.link-view-all {
+    position: relative;
+    background-color: var(--primary-color);
+    color: var(--back-color);
+    font-family: var(--body-font);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0.3rem 1.5rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 3rem;
+    transition: 1s ease-in-out;
+}
+
+.link-view-all:hover {
+    background-color: var(--back-color);
+    color: var(--primary-color);
 }
 
 
+/*************** DIVIDER ***************/
+.divider-home {
+    max-width: 15%;
+    margin: 5rem auto 5rem;
+}
 
+.divider-footer {
+    max-width: 20%;
+    margin: 10rem auto 5rem;
+}
