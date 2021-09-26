@@ -253,7 +253,6 @@ svg:hover {
 	}
 
 	.nav-pills {
-        display: none;
 		position: absolute;
 		overflow-x: hidden;
 		background-color: var(--gray-one);
@@ -268,7 +267,7 @@ svg:hover {
 		transform: translateX(110%);
 		transition: transform 0.7s ease-in;
         border-radius: 1.5rem;
-	
+        display: none;
 	}
 
 	.nav-pills li {
