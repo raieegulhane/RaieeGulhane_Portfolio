@@ -39,9 +39,10 @@
 
 body {
     position: relative;
-    /* background-color: var(--back-color); */
+    background-color: var(--back-color);
     background: url(/images/img1.png);
     background-size: contain;
+    background-attachment: fixed;
     color: white;
     font-family: var(--body-font);
     text-align: center;
