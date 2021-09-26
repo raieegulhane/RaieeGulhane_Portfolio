@@ -51,6 +51,10 @@ body {
 
 
 /*************** NAV BAR ***************/
+.div-navigation {
+    padding: 0 1rem;
+}
+
 .navigation {
     top: 1rem;
     position: sticky;

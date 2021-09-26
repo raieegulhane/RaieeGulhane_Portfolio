@@ -50,8 +50,6 @@
 /*************** IMAGE ***************/
 .home-image {
     padding: 2rem;
-    margin: 1rem;
-
 }
 
 .home-image img {
@@ -61,6 +59,9 @@
 
 
 /*************** CONTENT ***************/
+.div-content {
+    padding: 0 1.5rem;
+}
 .contents {
     display: block;
     background-color: var(--gray-one);
@@ -98,7 +99,7 @@
     -webkit-text-fill-color: transparent;
     font-family: var(--head-font);
     font-size: 33px;
-    max-width: 16%;
+    max-width: fit-content;
     margin: 2rem auto 0.5rem auto;
 }
 
@@ -174,6 +175,46 @@
 .divider-home {
     max-width: 15%;
     margin: 3rem auto 4rem;
+}
+
+
+/*************** MEDIA QUERIES ***************/
+@media screen and (max-width: 485px) {
+    .header-text {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header-title {
+        font-size: 55px;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .home-image img {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /* navi */
+}
+
+@media screen and (max-width: 1000px) {
+    .div-home-cards {
+        flex-direction: column;
+        padding: 1.5rem;
+        align-items: center;
+    }
+
+    .home-cards {
+        min-width: 70%;
+    }
+
+
 }
 
 
