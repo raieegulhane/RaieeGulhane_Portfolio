@@ -46,6 +46,14 @@
     }
 }
 
+.text-alternate {
+    display: none;
+    color: var(--primary-font);
+    font-family: var(--body-font2);
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
 
 /*************** IMAGE ***************/
 .home-image {
@@ -179,19 +187,17 @@
 
 
 /*************** MEDIA QUERIES ***************/
-@media screen and (max-width: 485px) {
-    .header-text {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 650px) {
     .header-title {
-        font-size: 55px;
+        font-size: 45px;
     }
 
     .text {
-        font-size: 13px;
+        display: none;
+    }
+
+    .text-alternate {
+        display: block;
     }
 
     .home-image img {
